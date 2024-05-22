@@ -1,0 +1,391 @@
+*{
+   margin:0;
+   font-family:Arial;
+   border: border-box;
+}
+body{
+    background-color:rgb(245, 238, 238);
+}
+.navbar{
+        height:60px;
+        width:100%;
+        color:white;
+        background-color:#0f1111;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+
+.navlogo{
+    height:50px;
+    width:120px;
+}
+.logo{
+    background-image: url("https://logos-world.net/wp-content/uploads/2021/02/Amazon-Prime-Video-Logo.png");
+    height:50px;
+    width:100%;
+    background-size: cover;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.loc{
+    display:flex;
+    align-items:center;
+}
+#well{
+    margin-left:5px;
+    margin-top:10px;
+}
+.address{
+    display:flex;
+}
+#yell{
+    margin-left:5px;
+}
+/*search bar */
+.search{
+    display:flex;
+    border:3px solid transparent;
+    border-radius:10px;
+    padding:10px 4px 10px 3px;
+}
+button{
+    height:45px;
+    width:45px;
+    background-color: orange;
+}
+.lang{
+    display:flex;
+}
+.seainput{
+    width:600px;
+    height:40px;
+}
+.selopt{
+    height:45px;
+    width:100px;
+    background-color:#ffffff;
+    text-align:center;
+}
+.hello{
+    margin-left:10px;
+    height:50px;
+    width:131px;
+}
+.return{
+    height:50px;
+    width:76px;
+    margin-left:10px;
+}
+.carsym{
+    font-size:30px;
+}
+.cart{
+    display:flex;
+    align-items:center;
+}
+/**second heading**/
+.hed{
+    height:39px;
+    width:100%;
+    background-color: #232F3E;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+}
+.bar{
+    height:35px;
+    width:58px;
+    display:flex;
+    align-items:center;
+    margin-left:5px;
+}
+.fre{
+    width:51px;
+    height:35px;
+    display:flex;
+    align-items:center;
+}
+.ama{
+    width:118px;
+    height:35px;
+    display:flex;
+    align-items:center;
+}
+.sel{
+    width:41px;
+    height:35px;
+    display:flex;
+    align-items:center;
+}
+.bes{
+    width:91px;
+    height:35px;
+    display:flex;
+    align-items:center;
+}
+.mob{
+    width:67px;
+    height:35px;
+    display:flex;
+    align-items:center;
+}
+.tod{
+    width:102px;
+    height:35px;
+    display:flex;
+    align-items:center;
+}
+.cus{
+    width:128px;
+    height:35px;
+    display:flex;
+    align-items:center;
+}
+.pri{
+    width:68px;
+    height:35px;
+    display:flex;
+    align-items:center;
+    background-color:#232F3E;
+    color:white;
+}
+.ele{
+    width:87px;
+    height:35px;
+    display:flex;
+    align-items:center;
+}
+.new{
+    height:50px;
+    width:103px;
+    display:flex;
+    align-items:center;
+}
+.hom{
+    height:50px;
+    width:121px;
+    display:flex;
+    align-items:center;
+}
+.gif{
+    height:50px;
+    width:78px;
+    display:flex;
+    align-items:center;
+}
+.pay{
+    height:50px;
+    width:96px;
+    display:flex;
+    align-items:center;
+}
+/*top first image*/
+.top{
+    height:320px;
+    width:100%;
+    background-image: url("ama pic.jpg");
+    background-size: cover;
+}
+.par{
+    height:40px;
+    background-color:white;
+    display:flex;
+    position:absolute;
+    margin-top:250px;
+    align-items:center;
+}
+a{
+    font-size:0.8rem;
+}
+.boxes{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
+.con2{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:25px;
+
+}
+.box{
+    height:420px;
+    width:340px;
+    background-color:white;
+    border:2px solid transparent;
+}
+.jin{
+    height:54px;
+    width:300px;
+    border:2px solid transparent;
+    font-size:20px;
+}
+.bin{
+    height:27px;
+    width:300px;
+    border:2px solid transparent;
+    font-size:20px;
+}
+.tin{
+    height:27px;
+    width:300px;
+    border:2px solid transparent;
+    font-size:20px;
+}
+.vin{
+    height:27px;
+    width:300px;
+    border:2px solid transparent;
+    font-size:20px;
+}
+.win{
+    height:27px;
+    width:300px;
+    border:2px solid transparent;
+    font-size:20px;
+}
+.xin{
+    height:27px;
+    width:300px;
+    border:2px solid transparent;
+    font-size:20px;
+}
+.yin{
+    height:27px;
+    width:300px;
+    border:2px solid transparent;
+    font-size:20px;
+}
+.zin{
+    height:27px;
+    width:300px;
+    border:2px solid transparent;
+    font-size:20px;
+}
+.pic{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.picv{
+    display:flex;
+    margin-left:20px;
+    flex-wrap:wrap;
+}
+.picw{
+    display:flex;
+    margin-left:20px;
+    flex-wrap:wrap;
+}
+.pic1{
+    height:115px;
+    width:145px;
+    background-image: url("box-1 pic1.jpg");
+    background-size:cover;
+}
+.pic2{
+    height:115px;
+    width:145px;
+    background-image: url("box-1 pic2.jpg");
+    background-size: cover;
+}
+.pic3{
+    height:115px;
+    width:145px;
+    background-image: url("box1-pic3.jpg");
+    background-size: cover;
+}
+.pic4{
+    height:115px;
+    width:145px;
+    background-image: url("box1 pic4.jpg");
+    background-size: cover;
+}
+.wek{
+    display:flex;
+    margin-top:20px;
+    justify-content:space-evenly;
+}
+.vek{
+    display:flex;
+    margin-top:60px;
+    justify-content: space-evenly;
+}
+.bac{
+    height:49px;
+    width:100%;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20px;
+}
+.las{
+    height:300px;
+    width:100%;
+    background-color:rgb(99, 97, 97);
+    color:white;
+    display:flex;
+    margin-left:25px;
+    justify-content:space-evenly;
+}
+.mlp{
+    height:251px;
+    width:136px;
+    color:white;
+    background-color: rgb(99,97,97);
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:25px;
+    margin-left:75px;
+}
+.opi{
+    font-size:15px;
+}
+.nko{
+    height:251px;
+    width:136px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left:60px;
+}
+.mlp{
+    height:251px;
+    width:136px;
+    color:white;
+    background-color: rgb(99,97,97);
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:25px;
+    margin-left:25px;
+}
+.bji{
+    height:251px;
+    width:236px;
+    color:white;
+    background-color: rgb(99,97,97);
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:25px;
+    margin-left:70px;
+}
+.vhu{
+    height:251px;
+    width:136px;
+    color:white;
+    background-color: rgb(99,97,97);
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:25px;
+    margin-left:70px;
+}
